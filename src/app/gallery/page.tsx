@@ -1,6 +1,6 @@
-import Footer from "@/components/body/footer";
+import Footer from "@/sections/footer";
 import Gallery from "@/components/body/gallery";
-import Header from "@/components/header";
+import Header from "@/sections/header";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

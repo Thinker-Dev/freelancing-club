@@ -37,7 +37,12 @@ const config = {
         border: "#ffffff2f",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
+        background: "#19181F",
+        section: {
+          100: "#23202A",
+          200: "#1E1B24",
+          300: "#19181F",
+        },
         foreground: "hsl(var(--foreground))",
         paragraph: "#9da1a7",
         gradient: {

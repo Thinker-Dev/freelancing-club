@@ -127,13 +127,11 @@ export const team: Team[] = [
     img: akshit,
     position: "Secretary",
     name: "Akshit Srivastava",
-    exec: true,
   },
   {
     img: devarsh,
     position: "Joint Secretary",
     name: "Devarsh Shah",
-    exec: true,
   },
   {
     img: sharad,

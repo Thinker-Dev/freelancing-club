@@ -4,8 +4,8 @@ import { nav } from "@/lib/constants";
 import { Layers, X } from "lucide-react";
 import Link from "next/link";
 import React, { Fragment, useState } from "react";
-import { Separator } from "../ui/separator";
-import { Button } from "../ui/button";
+import { Separator } from "@/components/ui/separator";
+import { Button } from "@/components/ui/button";
 
 const Menu = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);

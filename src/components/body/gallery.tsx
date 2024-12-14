@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import BreadCrumb from "../common/bread-crumb";
+import BreadCrumb from "../bread-crumb";
 import Image from "next/image";
-import RandomGrid from "../common/random-grid";
-import GalleryGrid from "../common/random-grid";
+import RandomGrid from "../random-grid";
+import GalleryGrid from "../random-grid";
 
 const Gallery = () => {
   return (

@@ -1,19 +1,22 @@
-import Footer from "@/components/body/footer";
-import Hero from "@/components/body/hero";
-import RecentEvents from "@/components/body/recent-events";
-import Team from "@/components/body/team";
+"use client";
+
+import Team from "@/sections/team";
 import UpcomingEvents from "@/components/body/upcoming-events";
-import Header from "@/components/header";
+import Footer from "@/sections/footer";
+import Header from "@/sections/header";
+import Hero from "@/sections/hero";
+import { Fragment } from "react";
+import RecentEvents from "@/sections/recent-events";
 
 export default function Home() {
   return (
-    <main className="max-xs:overflow-x-hidden max-w-screen-xl mx-auto min-h-screen">
+    <Fragment>
       <Header />
       <Hero />
       <UpcomingEvents />
       <RecentEvents />
       <Team />
       <Footer />
-    </main>
+    </Fragment>
   );
 }

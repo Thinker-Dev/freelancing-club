@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import BreadCrumb from "./bread-crumb";
+import BreadCrumb from "../bread-crumb";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { events } from "@/lib/constants";
