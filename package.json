@@ -1,5 +1,5 @@
 {
-  "name": "freelancing-club",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,24 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
-    "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "embla-carousel-react": "^8.1.7",
-    "framer-motion": "^11.3.18",
+    "framer-motion": "^11.15.0",
     "lucide-react": "^0.408.0",
     "next": "14.2.5",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-multi-carousel": "^2.8.5",
-    "sharp": "^0.33.5",
     "tailwind-merge": "^2.4.0",
-    "tailwindcss-animate": "^1.0.7",
-    "vaul": "^0.9.1"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",

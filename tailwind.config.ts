@@ -18,31 +18,11 @@ const config = {
       },
     },
     extend: {
-      screens: {
-        xs: "550px",
-        sm: "640px",
-        "sm-xs": "690px",
-        md: "768px",
-        "md-xs": "894px",
-        lg: "1024px",
-        "lg-md": "1154px",
-        xl: "1280px",
-        "2xl": "1536px",
-      },
-      boxShadow: {
-        "inner-lg": "inset 0 4px 6px rgba(0, 0, 0, 0.1)",
-        "inner-xl": "inset 0 10px 15px rgba(0, 0, 0, 0.1)",
-      },
       colors: {
-        border: "#ffffff2f",
+        border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#19181F",
-        section: {
-          100: "#23202A",
-          200: "#1E1B24",
-          300: "#19181F",
-        },
+        background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         paragraph: "#9da1a7",
         gradient: {
@@ -51,8 +31,9 @@ const config = {
           third: "#b1b1b1",
         },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "#e5ce69",
+          foreground: "rgba(229, 206, 105, 0.2)",
+          dark: "#bfa54f",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",

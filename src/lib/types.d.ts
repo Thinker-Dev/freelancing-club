@@ -9,13 +9,7 @@ declare module "*.jpg" {
 }
 
 interface Navigation {
+  id: string;
   title: string;
   path: string;
-}
-
-interface Team {
-  img: string;
-  position: string;
-  name: string;
-  exec?: boolean;
 }

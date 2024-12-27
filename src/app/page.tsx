@@ -1,22 +1,31 @@
 "use client";
 
-import Team from "@/sections/team";
-import UpcomingEvents from "@/components/body/upcoming-events";
-import Footer from "@/sections/footer";
-import Header from "@/sections/header";
-import Hero from "@/sections/hero";
-import { Fragment } from "react";
-import RecentEvents from "@/sections/recent-events";
+import { About } from "@/components/About";
+import Hero from "@/components/body/hero";
+import { Contact } from "@/components/Contact/Contact";
+import { Events } from "@/components/Events/Events";
+import Footer from "@/components/footer";
+import { Navbar } from "@/components/header";
+import { Projects } from "@/components/Projects/Projects";
+import { Resources } from "@/components/Resources/Resources";
+import { Team } from "@/components/Team/Team";
+import { WhatWeDo } from "@/components/WhatWeDo";
 
 export default function Home() {
   return (
-    <Fragment>
-      <Header />
-      <Hero />
-      <UpcomingEvents />
-      <RecentEvents />
-      <Team />
-      <Footer />
-    </Fragment>
+    <main>
+      <Navbar />
+      <div className="min-h-screen">
+        <Hero />
+        <About />
+        <WhatWeDo />
+        <Projects />
+        <Events />
+        <Team />
+        <Resources />
+        <Contact />
+        <Footer />
+      </div>
+    </main>
   );
 }
