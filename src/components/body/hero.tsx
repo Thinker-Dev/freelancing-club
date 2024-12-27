@@ -21,7 +21,7 @@ const Hero = () => {
       >
         <div className="relative space-y-7 flex  flex-col mt-10">
           <div>
-            <p className="text-md">Freelancer Club</p>
+            <p className="text-md">Freelancing Club</p>
             <h1 className="text-[85px] leading-none max-sm-xs:text-7xl max-xs:text-5xl font-extrabold bg-gradient-to-b from-gradient-first via-gradient-second to-gradient-third bg-clip-text text-transparent">
               Welcomes You
             </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="space-y-2">
             <p className="font-bold text-md">Who We Are</p>
             <p className="ml-5 md-xs:w-[610px] text-justify font-light text-lg">
-              Welcome to the Freelancer Club, where curiosity meets innovation!
+              Welcome to the Freelancing Club, where curiosity meets innovation!
               Whether you&apos;re a beginner eager to dive into data or a
               seasoned pro ready to tackle complex challenges, our club is your
               go-to community. We foster a collaborative environment where
