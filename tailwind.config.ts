@@ -35,6 +35,11 @@ const config = {
           foreground: "rgba(229, 206, 105, 0.2)",
           dark: "#bfa54f",
         },
+        section: {
+          100: "#23202A",
+          200: "#1E1B24",
+          300: "#19181F",
+        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",

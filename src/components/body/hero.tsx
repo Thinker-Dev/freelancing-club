@@ -1,67 +1,45 @@
-"use client";
-
 import React from "react";
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Tag from "../common/tag";
 
-const Hero = () => {
+export default function Hero() {
   return (
-    <section
-      id="home"
-      className="relative scroll-margin flex bg-radial-gradient mx-auto max-w-7xl "
-    >
-      <motion.div
-        className="absolute -top-[20px] right-36 max-xs:-right-44"
-        initial={{ opacity: 0, translateY: -50 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{
-          ease: "easeInOut",
-          duration: 0.4,
-        }}
+    <div className="h-screen pt-24">
+      <motion.section
+        // initial={{ filter: "blur(10px)" }}
+        // animate={{ filter: "blur(0px)" }}
+        // transition={{
+        //   ease: "easeInOut",
+        //   duration: 0.3,
+        // }}
+        className="container pt-7 mb-20"
       >
-        <Image alt="tree" src={"/three.webp"} width={380} height={380} />
-      </motion.div>
-      <motion.div
-        className="flex flex-col space-y-10 px-28 max-sm:px-10 h-[calc(100vh)] justify-center"
-        initial={{ opacity: 0, translateY: 20 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{
-          ease: "easeInOut",
-          duration: 0.4,
-        }}
-      >
-        <div className="relative space-y-7 flex  flex-col mt-10">
-          <div>
-            <p className="text-md">Freelancing Club</p>
-            <h1 className="text-[85px] leading-none max-sm-xs:text-7xl max-xs:text-5xl font-extrabold bg-gradient-to-b from-gradient-first via-gradient-second to-gradient-third bg-clip-text text-transparent">
-              Welcomes You
+        <div className="bg-section-100 w-full md:min-h-[500px] rounded-3xl relative items-center justify-center flex max-px-lg px-20 max-lg:px-8 max-md:flex-col overflow-hidden shadow-lg max-md:py-8">
+          <div className="absolute bg-section-200 right-0 top-0 w-[55%] h-full -skew-x-[30deg] translate-x-[200px]"></div>
+          <div className="relative md:w-1/2 space-y-7 flex flex-col md:pr-10 max-md:text-center max-md:items-center max-md:pb-16">
+            <Tag name="Welcome" />
+            <h1 className="text-5xl max-md:text-4xl font-extrabold">
+              Let&apos;s make your product a success
             </h1>
-          </div>
-          <div className="space-y-2">
-            <p className="font-bold text-md">Who We Are</p>
-            <p className="ml-5 max-w-[610px] text-justify font-light text-lg">
-              Welcome to the Freelancing Club, where curiosity meets innovation!
-              Whether you&apos;re a beginner eager to dive into data or a
-              seasoned pro ready to tackle complex challenges, our club is your
-              go-to community. We foster a collaborative environment where
-              learning is hands-on, and ideas flourish. Join us for our
-              thrilling club events and let&apos;s revel in the passion of our
-              incredible community!
-            </p>
-            <br></br>
-            <p className="ml-5 max-w-[610px] text-justify font-light text-lg">
-              &apos;Data is a precious thing and will last longer than the
-              systems themselves.&apos; –Tim Berners Lee
+            <p className="text-white/50">
+              We are a team of experienced product designers and developers who
+              are passionate about creating beautiful and functional products.
             </p>
           </div>
-          {/* <div className="max-xs:flex justify-center">
-            <Button className="px-10">Explore</Button>
-            <Button variant={"ghost"}>Fun Time</Button>
-          </div> */}
-        </div>
-      </motion.div>
-    </section>
-  );
-};
 
-export default Hero;
+          <div className="relative md:w-1/2">
+            <img
+              src={"/hero-home.webp"}
+              alt="hero"
+              className="rounded-2xl w-full"
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+      </motion.section>
+    </div>
+  );
+}
