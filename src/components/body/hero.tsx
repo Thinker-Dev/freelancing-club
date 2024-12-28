@@ -11,7 +11,18 @@ const Hero = () => {
       className="relative scroll-margin flex bg-radial-gradient mx-auto max-w-7xl "
     >
       <motion.div
-        className="flex flex-col space-y-10 px-28 mt-10 max-sm:px-10 h-screen  justify-center max-w-[850px]"
+        className="absolute -top-[20px] right-36 max-xs:-right-44"
+        initial={{ opacity: 0, translateY: -50 }}
+        animate={{ opacity: 1, translateY: 0 }}
+        transition={{
+          ease: "easeInOut",
+          duration: 0.4,
+        }}
+      >
+        <Image alt="tree" src={"/three.webp"} width={380} height={380} />
+      </motion.div>
+      <motion.div
+        className="flex flex-col space-y-10 px-28 max-sm:px-10 h-[calc(100vh)] justify-center"
         initial={{ opacity: 0, translateY: 20 }}
         animate={{ opacity: 1, translateY: 0 }}
         transition={{
@@ -28,7 +39,7 @@ const Hero = () => {
           </div>
           <div className="space-y-2">
             <p className="font-bold text-md">Who We Are</p>
-            <p className="ml-5 md-xs:w-[610px] text-justify font-light text-lg">
+            <p className="ml-5 max-w-[610px] text-justify font-light text-lg">
               Welcome to the Freelancing Club, where curiosity meets innovation!
               Whether you&apos;re a beginner eager to dive into data or a
               seasoned pro ready to tackle complex challenges, our club is your
@@ -38,7 +49,7 @@ const Hero = () => {
               incredible community!
             </p>
             <br></br>
-            <p className="ml-5 md-xs:w-[610px] text-justify font-light text-lg">
+            <p className="ml-5 max-w-[610px] text-justify font-light text-lg">
               &apos;Data is a precious thing and will last longer than the
               systems themselves.&apos; –Tim Berners Lee
             </p>

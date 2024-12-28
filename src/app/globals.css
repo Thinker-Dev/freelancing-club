@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #010314 40.24%, rgba(1, 3, 20, 0) 100%),
+    radial-gradient(
+      85.05% 65.08% at 50% 50%,
+      rgba(0, 0, 0, 0) 37.41%,
+      #6633ee 69.27%,
+      #ffffff 100%
+    );
+
+  background-attachment: fixed;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
