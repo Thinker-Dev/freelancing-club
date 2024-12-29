@@ -1,27 +1,28 @@
 export const footer = [
   {
-    name: "Company",
+    name: "Site Map",
     items: [
-      { link: "work", name: "Work" },
-      { link: "", name: "Services" },
-      { link: "", name: "Pricing" },
-      { link: "", name: "Templates" },
+      { link: "work", name: "Home" },
+      { link: "#events", name: "Events" },
+      { link: "#team", name: "Our Team" },
+      { link: "#contact", name: "Contact" },
+      { link: "#", name: "Client Portal" },
     ],
   },
   {
-    name: "Services",
+    name: "Socials",
     items: [
-      { link: "", name: "Work" },
-      { link: "", name: "Services" },
-      { link: "", name: "Pricing" },
-      { link: "", name: "Templates" },
+      { link: "#", name: "LinkedIn" },
+      { link: "#", name: "Twitter" },
+      { link: "#", name: "Instagram" },
+      { link: "#", name: "Facebook" },
     ],
   },
   {
     name: "Legal",
     items: [
-      { link: "/privacy-policy", name: "Privacy Policy" },
-      { link: "/terms-conditions", name: "Terms and Conditions" },
+      { link: "#", name: "Privacy Policy" },
+      { link: "#", name: "Terms and Conditions" },
     ],
   },
 ];

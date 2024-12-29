@@ -5,7 +5,10 @@ import BreadCrumb from "../common/bread-crumb";
 
 export function Team() {
   return (
-    <div className="bg-gray-950 py-24">
+    <section
+      id="team"
+      className="bg-gradient-to-b from-gray-900 via-gray-900 to-gray-950 py-24"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <BreadCrumb
           title="Our Team"
@@ -18,6 +21,6 @@ export function Team() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

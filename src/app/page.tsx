@@ -17,12 +17,12 @@ export default function Home() {
       <Navbar />
       <div className="min-h-screen">
         <Hero />
-        <About />
-        <WhatWeDo />
-        <Projects />
+        {/* <About /> */}
+        {/* <WhatWeDo /> */}
+        {/* <Projects /> */}
         <Events />
         <Team />
-        <Resources />
+        {/* <Resources /> */}
         <Contact />
         <Footer />
       </div>

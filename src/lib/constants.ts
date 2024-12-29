@@ -1,22 +1,22 @@
 export const nav: Navigation[] = [
   {
     id: "0",
-    title: "Features",
-    path: "#features",
+    title: "Home",
+    path: "#home",
   },
   {
     id: "1",
-    title: "Pricing",
-    path: "/#pricing",
+    title: "Events",
+    path: "/#events",
   },
   {
     id: "2",
-    title: "Community",
-    path: "/#community",
+    title: "Our Team",
+    path: "/#team",
   },
   {
     id: "3",
-    title: "Support",
-    path: "/#support",
+    title: "Contact",
+    path: "#contact",
   },
 ];

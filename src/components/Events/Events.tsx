@@ -5,7 +5,10 @@ import BreadCrumb from "../common/bread-crumb";
 
 export function Events() {
   return (
-    <div className="bg-gray-900 py-24">
+    <section
+      id="events"
+      className="bg-gradient-to-b from-gray-950 via-gray-950 to-gray-900 py-24"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <BreadCrumb
           title="Upcoming Events"
@@ -18,6 +21,6 @@ export function Events() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

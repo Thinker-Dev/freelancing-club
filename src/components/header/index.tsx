@@ -40,7 +40,7 @@ export function Navbar() {
               <Link
                 href={item.path}
                 key={index}
-                className="text-white hover:text-purple-300 transition-colors"
+                className="text-white hover:text-primary transition-colors"
               >
                 <span>{item.title}</span>
               </Link>

@@ -9,7 +9,7 @@ export default function Tag({ name, className }: TagProps) {
   return (
     <div
       className={cn(
-        "bg-section-200 rounded-2xl w-fit rounded-bl-none px-6 py-2",
+        "bg-gray-900 rounded-2xl w-fit rounded-bl-none px-6 py-2",
         className
       )}
     >
