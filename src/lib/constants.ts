@@ -11,11 +11,16 @@ export const nav: Navigation[] = [
   },
   {
     id: "2",
+    title: "Projects",
+    path: "/#projects",
+  },
+  {
+    id: "3",
     title: "Our Team",
     path: "/#team",
   },
   {
-    id: "3",
+    id: "4",
     title: "Contact",
     path: "#contact",
   },
