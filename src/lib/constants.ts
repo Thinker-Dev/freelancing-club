@@ -28,23 +28,15 @@ export const nav: Navigation[] = [
 
 export const socials = [
   {
-    title: "Linkedin",
-    path: "https://www.linkedin.com/in/data-science-club-vit-bhopal-5b9b02232",
-  },
-  {
-    title: "Github",
-    path: "https://github.com/cdsvitbhopal",
-  },
-  {
     title: "Instagram",
-    path: "https://www.instagram.com/dsc_vitb/",
+    path: "https://www.instagram.com/freelancing_club_vitb?igsh=MWViNWl0b3QwaGs0ag==",
   },
   {
-    title: "Youtube",
-    path: "https://www.youtube.com/channel/UC5pB8eW_kDoimQ5s4S7QgeA",
+    title: "Linkedin",
+    path: "https://www.linkedin.com/company/freelance-club-vitb/",
   },
   {
-    title: "WhatsApp",
-    path: "https://chat.whatsapp.com/G2QcNOVOeosH1OqoeEU74L",
+    title: "Gmail",
+    path: "freelancingclub@vitbhopal.ac.in",
   },
 ];
