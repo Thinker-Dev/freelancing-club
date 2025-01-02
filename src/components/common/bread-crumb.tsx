@@ -8,10 +8,10 @@ interface Props {
 const BreadCrumb = ({ title, subtitle }: Props) => {
   return (
     <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold bg-gradient-to-b from-gradient-first via-gradient-second to-gradient-third bg-clip-text text-transparent mb-4">
+      <h2 className="md:text-4xl text-2xl font-bold bg-gradient-to-b from-gradient-first via-gradient-second to-gradient-third bg-clip-text text-transparent mb-4">
         {title}
       </h2>
-      <p className="text-xl text-gray-400 max-w-2xl mx-auto">{subtitle}</p>
+      <p className="md:text-xl text-gray-400 max-w-2xl mx-auto">{subtitle}</p>
     </div>
   );
 };

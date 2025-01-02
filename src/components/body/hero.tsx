@@ -6,7 +6,7 @@ import Tag from "../common/tag";
 
 export default function Hero() {
   return (
-    <div className="h-screen pt-24">
+    <div className="md:h-screen pt-24">
       <motion.section
         // initial={{ filter: "blur(10px)" }}
         // animate={{ filter: "blur(0px)" }}

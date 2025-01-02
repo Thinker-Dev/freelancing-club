@@ -2,6 +2,7 @@
 
 import { About } from "@/components/About";
 import Hero from "@/components/body/hero";
+import CommunitySection from "@/components/community";
 import { Contact } from "@/components/Contact/Contact";
 import { Events } from "@/components/Events/Events";
 import Footer from "@/components/footer";
@@ -17,7 +18,8 @@ export default function Home() {
       <Navbar />
       <div className="min-h-screen">
         <Hero />
-        {/* <About /> */}
+        <About />
+        <CommunitySection />
         {/* <WhatWeDo /> */}
         {/* <Projects /> */}
         <Events />
