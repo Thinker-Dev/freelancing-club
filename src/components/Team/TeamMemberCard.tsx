@@ -19,7 +19,7 @@ export function TeamMemberCard({ member }: { member: TeamMember }) {
       </div>
       <h3 className="text-xl font-semibold text-white mb-1">{member.name}</h3>
       <p className="text-primary mb-2">{member.role}</p>
-      <p className="text-gray-400">{member.bio}</p>
+      {/* <p className="text-gray-400">{member.bio}</p> */}
     </div>
   );
 }
