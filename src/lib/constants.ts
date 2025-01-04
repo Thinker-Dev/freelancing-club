@@ -4,11 +4,11 @@ export const nav: Navigation[] = [
     title: "Home",
     path: "#home",
   },
-  {
-    id: "2",
-    title: "Community",
-    path: "/#community",
-  },
+  // {
+  //   id: "2",
+  //   title: "Community",
+  //   path: "/#community",
+  // },
   {
     id: "1",
     title: "Events",
@@ -36,7 +36,7 @@ export const socials = [
     path: "https://www.linkedin.com/company/freelance-club-vitb/",
   },
   {
-    title: "Gmail",
+    title: "Email",
     path: "freelancingclub@vitbhopal.ac.in",
   },
 ];

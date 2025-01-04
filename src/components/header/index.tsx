@@ -45,9 +45,9 @@ export function Navbar() {
                 <span>{item.title}</span>
               </Link>
             ))}
-            <button className="bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-purple-50 transition-colors">
+            {/* <button className="bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-purple-50 transition-colors">
               Client Portal
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -63,12 +63,18 @@ export function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-md py-4">
             <div className="flex flex-col items-center space-y-4">
-              <NavLink href="#lineup">Lineup</NavLink>
-              <NavLink href="#experience">Experience</NavLink>
-              <NavLink href="#gallery">Gallery</NavLink>
-              <button className="bg-primary px-6 py-2 rounded-full font-semibold hover:bg-purple-50 transition-colors">
+              {nav.map((item, index) => (
+                <Link
+                  href={item.path}
+                  key={index}
+                  className="text-white hover:text-primary transition-colors"
+                >
+                  <span>{item.title}</span>
+                </Link>
+              ))}
+              {/* <button className="bg-primary px-6 py-2 rounded-full font-semibold hover:bg-purple-50 transition-colors">
                 Get Tickets
-              </button>
+              </button> */}
             </div>
           </div>
         )}

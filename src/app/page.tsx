@@ -19,7 +19,7 @@ export default function Home() {
       <div className="min-h-screen">
         <Hero />
         <About />
-        <CommunitySection />
+        {/* <CommunitySection /> */}
         {/* <WhatWeDo /> */}
         {/* <Projects /> */}
         <Events />
